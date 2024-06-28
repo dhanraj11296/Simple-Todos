@@ -1,0 +1,26 @@
+.todoItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.title {
+  color: black;
+  font-size: 15px;
+}
+.deleteBtn {
+  background-color: white;
+  color: #ff0b37;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 2px solid #ff0b37;
+  padding: 10px;
+  margin: 10px;
+  outline: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 20px;
+  }
+}
